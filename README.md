@@ -18,6 +18,8 @@ VS1838 IR Receiver
 
 IR Remote Control
 
+Saleae Logic Analyzer
+
 ## Libraries Used
 IRremote
 
@@ -48,4 +50,20 @@ LED dot matrix is connected to arduino to display different messages when corres
 Up and down buttons on the left side of the remote were used to turn the relay module on and off
 
 <img width="1000" alt="image" src="https://github.com/yoojsung/IR_Remote_Receiver/assets/49657149/4a8ce0f2-c4f4-4439-9fe8-b8f85d83f6aa">
+
+DIN 2 -> Relay Module IN
+
+DIN 3 -> CS (Chip Select)
+
+DIN 5 -> VS1838 OUT
+
+DIN 11 -> LED Matrix DIN
+
+DIN 13 -> LED Matrix CLK (Clock)
+
+<img width="716" alt="image" src="https://github.com/yoojsung/IR_Remote_Receiver/assets/49657149/b5bf8a13-b48a-44a9-9c97-f37d4d02eb64">
+
+(Power button)
+
+Measured using Saleae Logic Analyzer and Logic software 
 
